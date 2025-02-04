@@ -1,4 +1,4 @@
-import express from 'express'
+import express from 'express';
 import { Server } from 'socket.io'
 import http from 'http'
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
