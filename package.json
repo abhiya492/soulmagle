@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "nodemon --exec node --loader ts-node/esm server/index.ts",
+    "dev": "nodemon --exec ts-node --loader ts-node/esm server/index.ts",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
