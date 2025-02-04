@@ -2,6 +2,7 @@
   "name": "soulmagle",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "nodemon --exec node --loader ts-node/esm server/index.ts",
     "build": "next build",
