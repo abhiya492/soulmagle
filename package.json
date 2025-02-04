@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "backend": "nodemon --watch 'server/**/*.ts' --exec 'ts-node -P tsconfig.server.json' server/index.ts"
+    "backend": "nodemon --watch 'server/**/*.ts' --exec 'ts-node --loader ts-node/esm -P tsconfig.server.json' server/index.ts"
   },
   "dependencies": {
     "@prisma/client": "5.10.2",
